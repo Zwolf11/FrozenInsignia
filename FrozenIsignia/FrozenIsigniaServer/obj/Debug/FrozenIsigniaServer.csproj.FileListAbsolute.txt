@@ -1,0 +1,8 @@
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\obj\Debug\FrozenIsigniaServer.csprojResolveAssemblyReference.cache
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\bin\Debug\FrozenIsigniaServer.exe.config
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\bin\Debug\FrozenIsigniaServer.exe
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\bin\Debug\FrozenIsigniaServer.pdb
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\bin\Debug\FrozenIsigniaClasses.dll
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\bin\Debug\FrozenIsigniaClasses.pdb
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\obj\Debug\FrozenIsigniaServer.exe
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsigniaServer\obj\Debug\FrozenIsigniaServer.pdb

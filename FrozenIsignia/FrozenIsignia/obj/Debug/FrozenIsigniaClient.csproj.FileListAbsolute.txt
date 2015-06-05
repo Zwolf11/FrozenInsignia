@@ -1,0 +1,10 @@
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\bin\Debug\FrozenIsignia.exe.config
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\bin\Debug\FrozenIsignia.exe
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\bin\Debug\FrozenIsignia.pdb
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\bin\Debug\FrozenIsigniaClasses.dll
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\bin\Debug\FrozenIsigniaClasses.pdb
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\obj\Debug\FrozenIsigniaClient.csprojResolveAssemblyReference.cache
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\obj\Debug\FrozenIsignia.Properties.Resources.resources
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\obj\Debug\FrozenIsigniaClient.csproj.GenerateResource.Cache
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\obj\Debug\FrozenIsignia.exe
+C:\Users\Zwolf11\Documents\Visual Studio 2013\Projects\FrozenIsignia\FrozenIsignia\obj\Debug\FrozenIsignia.pdb

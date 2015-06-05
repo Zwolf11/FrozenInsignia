@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16997191-A9EE-43AA-A9F2-40ADA9CFF85C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrozenIsignia</RootNamespace>
+    <AssemblyName>FrozenIsignia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Images.cs" />
+    <Compile Include="Lobby.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LobbyBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LobbyInfo.cs" />
+    <Compile Include="LordSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Move.cs" />
+    <Compile Include="NetworkControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NetworkHandler.cs" />
+    <Compile Include="Options.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Title.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_down0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_focus0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_focus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_focus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_idle0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_idle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_idle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_left0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_left3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_right0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_right2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_right3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_up0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_up2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lord_Sword_up3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FrozenIsigniaClasses\FrozenIsigniaClasses.csproj">
+      <Project>{cffd7439-226a-4690-be8d-c7ebebbe8821}</Project>
+      <Name>FrozenIsigniaClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
